@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="F15C6_STHI" directorySegmentName="seg_0" id="5095F01E-E2DA-62D5-E548-0DBC73DFF51D">
+<createdBy>maste_000</createdBy>
+<createdTime>2015-11-20 02:00:35 UTC</createdTime>
+<generatorID>2F98BDD7-5488-BD98-8D80-56D9420E45E3</generatorID>
+<ownerDesignName>Logical15R</ownerDesignName>
+<engineerTo>
+<item key="C9A7D76F-CF97-63EB-4901-AA6F016A37CE" value="true"/>
+</engineerTo>
+<sourcePk>98A1DD7C-E433-4A38-02BE-012F99245849</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>33B78A94-1124-F7D4-CBEF-9B37513E0EAC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AA0D3A74-6F35-7866-2D82-DB3FAA65DB45</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

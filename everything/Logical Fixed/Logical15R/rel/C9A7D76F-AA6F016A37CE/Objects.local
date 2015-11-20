@@ -1,0 +1,30 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="DBC2980E-A442-DEAB-C548-EFD4107BB70B" name="F15C6_AUT" seqName="seg_0"/>
+   <object objectType="Table" objectID="CC336AC5-AD8D-5685-4DB6-98AA655647BE" name="F15C6_CMT" seqName="seg_0"/>
+   <object objectType="Table" objectID="075A7CDA-B4EA-E9DE-0350-BB931F1FEE3E" name="F15C6_CTC" seqName="seg_0"/>
+   <object objectType="Table" objectID="66BB61D0-9A93-6B34-D45A-A0A0E1B1B8DD" name="F15C6_DOC" seqName="seg_0"/>
+   <object objectType="Table" objectID="D75ADA95-B573-D6A9-103A-883E57D7AE81" name="F15C6_EMP" seqName="seg_0"/>
+   <object objectType="Table" objectID="AE0F2315-4F04-CFD6-B934-E0DAE9B26F90" name="F15C6_HIS" seqName="seg_0"/>
+   <object objectType="Table" objectID="BE12B327-B49C-BF51-179E-A432AA8A7AF5" name="F15C6_LAB" seqName="seg_0"/>
+   <object objectType="Table" objectID="73816050-39F8-47A2-A4C6-CED0137DC158" name="F15C6_RFE" seqName="seg_0"/>
+   <object objectType="Table" objectID="D5DCCE19-6961-68DA-DA6F-C6F6FAB865F4" name="F15C6_ROL" seqName="seg_0"/>
+   <object objectType="Table" objectID="092CA8F3-BE68-3B05-95C3-D756052090AF" name="F15C6_STA" seqName="seg_0"/>
+   <object objectType="Table" objectID="D707E293-864A-814B-D725-A915A2233274" name="F15C6_TRR" seqName="seg_0"/>
+   <object objectType="Table" objectID="0D81ED13-2390-9298-7B17-CFC15693CC95" name="F15C6_TSK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="7537D884-9067-E10A-08A0-57E8CE9561BE" name="F15C6_CMT_F15C6_CTC_FK" seqName="seg_0" containerID="CC336AC5-AD8D-5685-4DB6-98AA655647BE" refContainerID="075A7CDA-B4EA-E9DE-0350-BB931F1FEE3E"/>
+   <object objectType="FKIndexAssociation" objectID="548ABE23-A827-1510-40A6-F6899DE0F96E" name="F15C6_CMT_F15C6_RFE_FK" seqName="seg_0" containerID="CC336AC5-AD8D-5685-4DB6-98AA655647BE" refContainerID="73816050-39F8-47A2-A4C6-CED0137DC158"/>
+   <object objectType="FKIndexAssociation" objectID="599E7F73-5D58-04DA-1CA4-F790F7E73B8F" name="F15C6_CTC_F15C6_EMP_FK" seqName="seg_0" containerID="075A7CDA-B4EA-E9DE-0350-BB931F1FEE3E" refContainerID="D75ADA95-B573-D6A9-103A-883E57D7AE81"/>
+   <object objectType="FKIndexAssociation" objectID="DE82C41F-4CD9-D5F9-2E75-F3D846C7A6F3" name="F15C6_CTC_F15C6_RFE_FK" seqName="seg_0" containerID="075A7CDA-B4EA-E9DE-0350-BB931F1FEE3E" refContainerID="73816050-39F8-47A2-A4C6-CED0137DC158"/>
+   <object objectType="FKIndexAssociation" objectID="AB8553EE-82CC-5009-7869-690F1E800660" name="F15C6_CTC_F15C6_ROL_FK" seqName="seg_0" containerID="075A7CDA-B4EA-E9DE-0350-BB931F1FEE3E" refContainerID="D5DCCE19-6961-68DA-DA6F-C6F6FAB865F4"/>
+   <object objectType="FKIndexAssociation" objectID="F5A6A9C3-9EF5-C12C-573E-23409DB77693" name="F15C6_DOC_F15C6_CTC_FK" seqName="seg_0" containerID="66BB61D0-9A93-6B34-D45A-A0A0E1B1B8DD" refContainerID="075A7CDA-B4EA-E9DE-0350-BB931F1FEE3E"/>
+   <object objectType="FKIndexAssociation" objectID="C7A38CB6-224B-2309-A9AE-819E826A556A" name="F15C6_DOC_F15C6_RFE_FK" seqName="seg_0" containerID="66BB61D0-9A93-6B34-D45A-A0A0E1B1B8DD" refContainerID="73816050-39F8-47A2-A4C6-CED0137DC158"/>
+   <object objectType="FKIndexAssociation" objectID="1CD07015-DB16-87B5-6DFE-BF6AAA9F1BA5" name="F15C6_EMP_F15C6_AUT_FK" seqName="seg_0" containerID="D75ADA95-B573-D6A9-103A-883E57D7AE81" refContainerID="DBC2980E-A442-DEAB-C548-EFD4107BB70B"/>
+   <object objectType="FKIndexAssociation" objectID="27277BFC-5A16-949C-36ED-B4F5AC73FE41" name="F15C6_EMP_F15C6_LAB_FK" seqName="seg_0" containerID="D75ADA95-B573-D6A9-103A-883E57D7AE81" refContainerID="BE12B327-B49C-BF51-179E-A432AA8A7AF5"/>
+   <object objectType="FKIndexAssociation" objectID="2DBFE610-7F17-DE75-B381-B99B38667A77" name="F15C6_HIS_F15C6_CTC_FK" seqName="seg_0" containerID="AE0F2315-4F04-CFD6-B934-E0DAE9B26F90" refContainerID="075A7CDA-B4EA-E9DE-0350-BB931F1FEE3E"/>
+   <object objectType="FKIndexAssociation" objectID="90F88C31-2FC8-10CD-B729-D95F78F076D3" name="F15C6_HIS_F15C6_RFE_FK" seqName="seg_0" containerID="AE0F2315-4F04-CFD6-B934-E0DAE9B26F90" refContainerID="73816050-39F8-47A2-A4C6-CED0137DC158"/>
+   <object objectType="FKIndexAssociation" objectID="286E9C9D-19BB-2301-FD43-D131923FFAEF" name="F15C6_HIS_F15C6_STA_FK" seqName="seg_0" containerID="AE0F2315-4F04-CFD6-B934-E0DAE9B26F90" refContainerID="092CA8F3-BE68-3B05-95C3-D756052090AF"/>
+   <object objectType="FKIndexAssociation" objectID="8EAA47A7-5118-6B45-8371-FFFA4FD74F6A" name="F15C6_RFE_F15C6_STA_FK" seqName="seg_0" containerID="73816050-39F8-47A2-A4C6-CED0137DC158" refContainerID="092CA8F3-BE68-3B05-95C3-D756052090AF"/>
+   <object objectType="FKIndexAssociation" objectID="3D082E14-D668-9427-6E31-CF868EB10198" name="F15C6_TRR_F15C6_RFE_FK" seqName="seg_0" containerID="D707E293-864A-814B-D725-A915A2233274" refContainerID="73816050-39F8-47A2-A4C6-CED0137DC158"/>
+   <object objectType="FKIndexAssociation" objectID="4F8684BF-6C02-04F3-733C-2A974B09484B" name="F15C6_TRR_F15C6_TSK_FK" seqName="seg_0" containerID="D707E293-864A-814B-D725-A915A2233274" refContainerID="0D81ED13-2390-9298-7B17-CFC15693CC95"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

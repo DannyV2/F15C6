@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A9F03554-74C6-C1DE-7188-C2758B6DAF7D" name="F15C6 RFE">
+<createdBy>dannyvarela</createdBy>
+<createdTime>2015-11-02 22:22:04 UTC</createdTime>
+<ownerDesignName>Logical15R</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C9A7D76F-CF97-63EB-4901-AA6F016A37CE" value="false"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rfe id" id="002AFD78-5554-3D5D-936E-4B8377F51094">
+<createdBy>dannyvarela</createdBy>
+<createdTime>2015-11-02 22:22:15 UTC</createdTime>
+<ownerDesignName>Logical15R</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C9A7D76F-CF97-63EB-4901-AA6F016A37CE" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="exp" id="29FDD7CB-D1F7-879E-78BA-853B5B02ADD8">
+<createdBy>maste_000</createdBy>
+<createdTime>2015-11-20 00:28:40 UTC</createdTime>
+<ownerDesignName>Logical15R</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C9A7D76F-CF97-63EB-4901-AA6F016A37CE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="protection" id="EC5A878E-AFDB-08D0-1044-FEB59DA1348B">
+<createdBy>maste_000</createdBy>
+<createdTime>2015-11-20 00:29:32 UTC</createdTime>
+<ownerDesignName>Logical15R</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C9A7D76F-CF97-63EB-4901-AA6F016A37CE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="app rdate" id="33C4841A-7BE0-400B-EBB2-DF5697CBCD9C">
+<createdBy>maste_000</createdBy>
+<createdTime>2015-11-20 00:29:49 UTC</createdTime>
+<ownerDesignName>Logical15R</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C9A7D76F-CF97-63EB-4901-AA6F016A37CE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3F32D1E4-AB48-2CFE-A5E0-66B530189659" name="F15C6_RFE_PK">
+<createdBy>dannyvarela</createdBy>
+<createdTime>2015-11-02 22:22:23 UTC</createdTime>
+<ownerDesignName>Logical15R</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C9A7D76F-CF97-63EB-4901-AA6F016A37CE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>002AFD78-5554-3D5D-936E-4B8377F51094</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

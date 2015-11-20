@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DBC2980E-A442-DEAB-C548-EFD4107BB70B" name="F15C6_AUT">
+<createdBy>maste_000</createdBy>
+<createdTime>2015-11-20 03:38:55 UTC</createdTime>
+<generatorID>53F09AB6-B5C5-B43A-88EA-C2A039376524</generatorID>
+<notes>Check Constraint on right = &apos;Edit&apos; Or &apos;View&apos;</notes>
+<ownerDesignName>Logical15R</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="auth_id" id="40AFCA7D-476B-A5A6-3BAF-BEBF12345809">
+<createdBy>maste_000</createdBy>
+<createdTime>2015-11-20 03:38:55 UTC</createdTime>
+<generatorID>CEFC7246-84B2-D69E-A2E1-6E27B69E6F2A</generatorID>
+<ownerDesignName>Logical15R</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="right" id="43649AC6-01D0-64E0-2A27-8603B68EE113">
+<createdBy>maste_000</createdBy>
+<createdTime>2015-11-20 03:38:55 UTC</createdTime>
+<generatorID>EBDA7C19-F677-0608-A777-3E4B378B85DF</generatorID>
+<ownerDesignName>Logical15R</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="716D2281-35F2-4B80-3FB5-94BA5A9A75E0" name="F15C6_AUT_PK">
+<createdBy>maste_000</createdBy>
+<createdTime>2015-11-20 03:38:55 UTC</createdTime>
+<generatorID>822DC924-E9AC-0312-50B3-AC7A188E725F</generatorID>
+<ownerDesignName>Logical15R</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40AFCA7D-476B-A5A6-3BAF-BEBF12345809"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

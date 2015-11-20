@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="73816050-39F8-47A2-A4C6-CED0137DC158" name="F15C6_RFE">
+<createdBy>maste_000</createdBy>
+<createdTime>2015-11-20 03:38:55 UTC</createdTime>
+<generatorID>E03522F3-6D76-CB96-481A-5414B3CE0532</generatorID>
+<ownerDesignName>Logical15R</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rfe_id" id="8B9E9A02-EB5C-0396-B365-89E2EAED7CDB">
+<createdBy>maste_000</createdBy>
+<createdTime>2015-11-20 03:38:55 UTC</createdTime>
+<generatorID>9C2692BD-EFC2-082C-F274-B3C8BFE2011A</generatorID>
+<ownerDesignName>Logical15R</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="F15C6_STA_status_id" id="5F1CFDD3-95C4-33B7-E2E7-C0DFAC81E5CF">
+<createdBy>maste_000</createdBy>
+<createdTime>2015-11-20 03:38:55 UTC</createdTime>
+<generatorID>AE0AC239-8D59-B498-78FF-7B0F90CD1670</generatorID>
+<ownerDesignName>Logical15R</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8EAA47A7-5118-6B45-8371-FFFA4FD74F6A" referredColumn="06A69129-FEDD-9F07-8E71-5FD7A1565944"/>
+</associations>
+</Column>
+<Column name="app_rdate" id="D264C05A-9931-9A09-E07E-E81986126E3D">
+<createdBy>maste_000</createdBy>
+<createdTime>2015-11-20 03:38:55 UTC</createdTime>
+<generatorID>E87AF249-AB0B-5298-5B14-986BE70373CF</generatorID>
+<ownerDesignName>Logical15R</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="exp" id="2E9E1F0F-A584-36CC-3271-624A78693481">
+<createdBy>maste_000</createdBy>
+<createdTime>2015-11-20 03:38:55 UTC</createdTime>
+<generatorID>E9D9B42B-1595-37F1-C783-7F0CEAF77360</generatorID>
+<ownerDesignName>Logical15R</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="protection" id="00DDBCD9-D131-012E-B501-2D8786964A0F">
+<createdBy>maste_000</createdBy>
+<createdTime>2015-11-20 03:38:55 UTC</createdTime>
+<generatorID>50635BEC-0BBA-F859-3C2C-6B948B5A4224</generatorID>
+<ownerDesignName>Logical15R</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7C407330-EA0B-9E9B-E35D-6A1A392F157B" name="F15C6_RFE_PK">
+<createdBy>maste_000</createdBy>
+<createdTime>2015-11-20 03:38:55 UTC</createdTime>
+<generatorID>D191B237-B40F-A26E-A2DF-FE7E6489CA37</generatorID>
+<ownerDesignName>Logical15R</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B9E9A02-EB5C-0396-B365-89E2EAED7CDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="183AF787-B706-C642-F6ED-54ED437DE7D0" name="F15C6_RFE_F15C6_STA_FK">
+<createdBy>maste_000</createdBy>
+<createdTime>2015-11-20 03:38:56 UTC</createdTime>
+<generatorID>7A9FB9A1-8040-7200-1E55-450DF447B617</generatorID>
+<ownerDesignName>Logical15R</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F1CFDD3-95C4-33B7-E2E7-C0DFAC81E5CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

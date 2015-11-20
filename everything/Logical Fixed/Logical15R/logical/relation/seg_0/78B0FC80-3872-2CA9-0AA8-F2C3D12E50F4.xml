@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="F15C6_HIRF" directorySegmentName="seg_0" id="78B0FC80-3872-2CA9-0AA8-F2C3D12E50F4">
+<createdBy>maste_000</createdBy>
+<createdTime>2015-11-20 02:00:35 UTC</createdTime>
+<generatorID>68593B83-4799-96CE-692A-7EFE43AE5229</generatorID>
+<ownerDesignName>Logical15R</ownerDesignName>
+<engineerTo>
+<item key="C9A7D76F-CF97-63EB-4901-AA6F016A37CE" value="true"/>
+</engineerTo>
+<sourcePk>D191B237-B40F-A26E-A2DF-FE7E6489CA37</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E03522F3-6D76-CB96-481A-5414B3CE0532</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AA0D3A74-6F35-7866-2D82-DB3FAA65DB45</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

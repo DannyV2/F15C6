@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="31ED038A-30E1-CC39-324E-FA79B5A56DD9" name="F15C6 Labs">
+<createdBy>dannyvarela</createdBy>
+<createdTime>2015-11-02 22:19:35 UTC</createdTime>
+<ownerDesignName>Logical15R</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C9A7D76F-CF97-63EB-4901-AA6F016A37CE" value="false"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="lab id" id="02B2F1B0-6087-A904-A82C-BC3E9917CD46">
+<createdBy>dannyvarela</createdBy>
+<createdTime>2015-11-02 22:19:47 UTC</createdTime>
+<ownerDesignName>Logical15R</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C9A7D76F-CF97-63EB-4901-AA6F016A37CE" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lab name" id="0B268735-E55A-4489-C39D-A69FD4849249">
+<createdBy>maste_000</createdBy>
+<createdTime>2015-11-20 01:08:16 UTC</createdTime>
+<ownerDesignName>Logical15R</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C9A7D76F-CF97-63EB-4901-AA6F016A37CE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="44C46B18-57A7-75A7-947C-7BA371A71E42" name="F15C6_Labs_PK">
+<createdBy>dannyvarela</createdBy>
+<createdTime>2015-11-02 22:19:58 UTC</createdTime>
+<ownerDesignName>Logical15R</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C9A7D76F-CF97-63EB-4901-AA6F016A37CE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>02B2F1B0-6087-A904-A82C-BC3E9917CD46</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

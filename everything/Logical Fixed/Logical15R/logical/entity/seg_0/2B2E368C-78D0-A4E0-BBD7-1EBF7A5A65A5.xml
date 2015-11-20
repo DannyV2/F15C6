@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2B2E368C-78D0-A4E0-BBD7-1EBF7A5A65A5" name="F15C6 Hist">
+<createdBy>dannyvarela</createdBy>
+<createdTime>2015-11-02 22:31:50 UTC</createdTime>
+<ownerDesignName>Logical15R</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C9A7D76F-CF97-63EB-4901-AA6F016A37CE" value="false"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="hist id" id="A5199EE6-FA3F-CD6C-4DFF-62F20D000093">
+<createdBy>dannyvarela</createdBy>
+<createdTime>2015-11-02 22:32:10 UTC</createdTime>
+<ownerDesignName>Logical15R</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C9A7D76F-CF97-63EB-4901-AA6F016A37CE" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="eff date" id="AC52F9A2-8990-FFA3-F78C-69AFD700D50F">
+<createdBy>maste_000</createdBy>
+<createdTime>2015-11-20 00:32:41 UTC</createdTime>
+<ownerDesignName>Logical15R</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C9A7D76F-CF97-63EB-4901-AA6F016A37CE" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CDB76DA7-D9C7-D60F-24E7-07DC1C01DC15" name="F15C6_Hist_PK">
+<createdBy>dannyvarela</createdBy>
+<createdTime>2015-11-02 22:32:26 UTC</createdTime>
+<ownerDesignName>Logical15R</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C9A7D76F-CF97-63EB-4901-AA6F016A37CE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A5199EE6-FA3F-CD6C-4DFF-62F20D000093</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
