@@ -4,7 +4,7 @@
 <createdTime>2015-11-20 02:52:24 UTC</createdTime>
 <ownerDesignName>Logical15R</ownerDesignName>
 <engineerTo>
-<item key="C9A7D76F-CF97-63EB-4901-AA6F016A37CE" value="true"/>
+<item key="652D46CB-727B-ABA6-C1A0-DB85E83DB70D" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2015-11-20 02:53:04 UTC</createdTime>
 <ownerDesignName>Logical15R</ownerDesignName>
 <engineerTo>
-<item key="C9A7D76F-CF97-63EB-4901-AA6F016A37CE" value="true"/>
+<item key="652D46CB-727B-ABA6-C1A0-DB85E83DB70D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2015-11-20 02:52:58 UTC</createdTime>
 <ownerDesignName>Logical15R</ownerDesignName>
 <engineerTo>
-<item key="C9A7D76F-CF97-63EB-4901-AA6F016A37CE" value="true"/>
+<item key="652D46CB-727B-ABA6-C1A0-DB85E83DB70D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -40,12 +40,12 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="desc" id="0BCE00D1-8F9D-27E2-D8B6-E016AC35F62D">
+<Attribute name="descript" id="0BCE00D1-8F9D-27E2-D8B6-E016AC35F62D">
 <createdBy>maste_000</createdBy>
 <createdTime>2015-11-20 02:54:42 UTC</createdTime>
 <ownerDesignName>Logical15R</ownerDesignName>
 <engineerTo>
-<item key="C9A7D76F-CF97-63EB-4901-AA6F016A37CE" value="true"/>
+<item key="652D46CB-727B-ABA6-C1A0-DB85E83DB70D" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -59,9 +59,8 @@
 <createdBy>maste_000</createdBy>
 <createdTime>2015-11-20 02:54:06 UTC</createdTime>
 <ownerDesignName>Logical15R</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C9A7D76F-CF97-63EB-4901-AA6F016A37CE" value="false"/>
+<item key="652D46CB-727B-ABA6-C1A0-DB85E83DB70D" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

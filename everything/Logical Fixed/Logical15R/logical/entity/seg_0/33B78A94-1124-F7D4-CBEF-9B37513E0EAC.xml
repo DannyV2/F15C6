@@ -5,7 +5,7 @@
 <generatorID>813C7503-5F18-C396-BF3E-E999219A317A</generatorID>
 <ownerDesignName>Logical15R</ownerDesignName>
 <engineerTo>
-<item key="C9A7D76F-CF97-63EB-4901-AA6F016A37CE" value="true"/>
+<item key="2479296F-A10C-EB47-34C2-662A50E3D7F8" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -22,7 +22,7 @@
 <generatorID>C28F4E21-0290-9968-3305-330411C205DF</generatorID>
 <ownerDesignName>Logical15R</ownerDesignName>
 <engineerTo>
-<item key="C9A7D76F-CF97-63EB-4901-AA6F016A37CE" value="true"/>
+<item key="2479296F-A10C-EB47-34C2-662A50E3D7F8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -35,7 +35,7 @@
 <generatorID>DC8A6950-D9DA-EEBF-84F6-957423AD5969</generatorID>
 <ownerDesignName>Logical15R</ownerDesignName>
 <engineerTo>
-<item key="C9A7D76F-CF97-63EB-4901-AA6F016A37CE" value="true"/>
+<item key="2479296F-A10C-EB47-34C2-662A50E3D7F8" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -44,13 +44,13 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="desc" id="7CBE2826-54B3-0441-F8A8-8984F8354255">
+<Attribute name="descript" id="7CBE2826-54B3-0441-F8A8-8984F8354255">
 <createdBy>maste_000</createdBy>
 <createdTime>2015-11-20 02:00:35 UTC</createdTime>
 <generatorID>EF6C92B6-8A8F-A4A6-048B-54CD41B6790A</generatorID>
 <ownerDesignName>Logical15R</ownerDesignName>
 <engineerTo>
-<item key="C9A7D76F-CF97-63EB-4901-AA6F016A37CE" value="true"/>
+<item key="2479296F-A10C-EB47-34C2-662A50E3D7F8" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -66,9 +66,8 @@
 <createdTime>2015-11-20 02:00:35 UTC</createdTime>
 <generatorID>15C0D5D9-A99F-34F7-5328-9DBB0C7259D0</generatorID>
 <ownerDesignName>Logical15R</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C9A7D76F-CF97-63EB-4901-AA6F016A37CE" value="false"/>
+<item key="2479296F-A10C-EB47-34C2-662A50E3D7F8" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

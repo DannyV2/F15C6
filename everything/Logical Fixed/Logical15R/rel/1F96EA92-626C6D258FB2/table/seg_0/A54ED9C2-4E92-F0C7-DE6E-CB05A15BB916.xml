@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A54ED9C2-4E92-F0C7-DE6E-CB05A15BB916" name="F15C6_STA">
+<createdBy>dannyvarela</createdBy>
+<createdTime>2015-11-20 18:06:16 UTC</createdTime>
+<generatorID>33B78A94-1124-F7D4-CBEF-9B37513E0EAC</generatorID>
+<ownerDesignName>Logical15R</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="status_id" id="589CB3D6-B471-E720-F55E-B9407D50D18E">
+<createdBy>dannyvarela</createdBy>
+<createdTime>2015-11-20 18:06:16 UTC</createdTime>
+<generatorID>293999B7-6A49-1DD7-3FC6-28308D92DEC3</generatorID>
+<ownerDesignName>Logical15R</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rfe_status" id="211256B5-18F5-8768-2F7D-FA6C29E89524">
+<createdBy>dannyvarela</createdBy>
+<createdTime>2015-11-20 18:06:16 UTC</createdTime>
+<generatorID>FA2A109B-4292-7428-3A33-F263DC4EA486</generatorID>
+<ownerDesignName>Logical15R</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descript" id="434C9975-2010-293F-40EC-E743DC211CEC">
+<createdBy>dannyvarela</createdBy>
+<createdTime>2015-11-20 18:06:16 UTC</createdTime>
+<generatorID>7CBE2826-54B3-0441-F8A8-8984F8354255</generatorID>
+<ownerDesignName>Logical15R</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4304A282-2CCB-E9AC-EDB8-B5A8D88D4F2C" name="F15C6_STA_PK">
+<createdBy>dannyvarela</createdBy>
+<createdTime>2015-11-20 18:06:16 UTC</createdTime>
+<generatorID>98A1DD7C-E433-4A38-02BE-012F99245849</generatorID>
+<ownerDesignName>Logical15R</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="589CB3D6-B471-E720-F55E-B9407D50D18E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,18 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.logical.LogicalDesign>
-   <object objectType="Entity" objectID="E127FDE8-29BA-BE4C-0866-3E1E2FE8EFAE" name="F15C6 Admin" seqName="seg_0"/>
-   <object objectType="Entity" objectID="2C478F7C-B676-D7FF-3132-7C5A9B34C1A4" name="F15C6 Auth" seqName="seg_0"/>
-   <object objectType="Entity" objectID="6F4E117B-D7C4-8687-5793-9DB9357E5E92" name="F15C6 Chair" seqName="seg_0"/>
-   <object objectType="Entity" objectID="2CF335B1-8F32-623B-A685-5A679A95153A" name="F15C6 Cmt" seqName="seg_0"/>
-   <object objectType="Entity" objectID="4A20A11E-B6FB-75D3-EC65-1AC1FB94EC1E" name="F15C6 Docs" seqName="seg_0"/>
-   <object objectType="Entity" objectID="4932B8ED-A699-F919-5D78-3A189A47FD3F" name="F15C6 Emp" seqName="seg_0"/>
-   <object objectType="Entity" objectID="88886C93-3B94-94FF-228E-80E5DC77D39D" name="F15C6 Execdir" seqName="seg_0"/>
-   <object objectType="Entity" objectID="2B2E368C-78D0-A4E0-BBD7-1EBF7A5A65A5" name="F15C6 Hist" seqName="seg_0"/>
-   <object objectType="Entity" objectID="A0DDD860-3866-1213-57D9-BFF75C0DB464" name="F15C6 LabDir" seqName="seg_0"/>
-   <object objectType="Entity" objectID="31ED038A-30E1-CC39-324E-FA79B5A56DD9" name="F15C6 Labs" seqName="seg_0"/>
-   <object objectType="Entity" objectID="A9F03554-74C6-C1DE-7188-C2758B6DAF7D" name="F15C6 RFE" seqName="seg_0"/>
-   <object objectType="Entity" objectID="004FA36B-8689-DA9F-17AF-ADF37597ABCE" name="F15C6 Stat" seqName="seg_0"/>
-   <object objectType="Entity" objectID="1E0FB688-377D-57C0-EDFC-01653433147F" name="F15C6 Task" seqName="seg_0"/>
    <object objectType="Entity" objectID="53F09AB6-B5C5-B43A-88EA-C2A039376524" name="F15C6_AUT" seqName="seg_0"/>
    <object objectType="Entity" objectID="4C420626-81D2-354C-CCBB-A8E7F06F1F02" name="F15C6_CMT" seqName="seg_0"/>
    <object objectType="Entity" objectID="F5C1E4B5-606E-1C9F-6030-E2F01F58D364" name="F15C6_CTC" seqName="seg_0"/>

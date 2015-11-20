@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="927C40F3-99A3-A5EC-2154-81AE1EAB4597" name="F15C6_TRR">
+<createdBy>dannyvarela</createdBy>
+<createdTime>2015-11-20 18:06:16 UTC</createdTime>
+<generatorID>F460A573-133B-FC22-009C-B6CA82AB04B4</generatorID>
+<ownerDesignName>Logical15R</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rt_id" id="37075B3B-E45D-6203-93A8-A652A6A9E09F">
+<createdBy>dannyvarela</createdBy>
+<createdTime>2015-11-20 18:06:16 UTC</createdTime>
+<generatorID>36C73997-690E-8967-BEB0-BB5E6DD43A8F</generatorID>
+<ownerDesignName>Logical15R</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rfe_id" id="0D5F63BE-82A9-EA41-7D8F-14A2AEA6D461">
+<createdBy>dannyvarela</createdBy>
+<createdTime>2015-11-20 18:06:16 UTC</createdTime>
+<generatorID>9565A2F5-456C-DE72-71EA-12039685DDDF</generatorID>
+<ownerDesignName>Logical15R</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4013E3C5-8332-B0CD-A67B-51012883E947" referredColumn="A70B612B-C96B-320A-CF1B-4BD9A98AFF7D"/>
+</associations>
+</Column>
+<Column name="task_id" id="669F1871-8631-B86C-3EE2-009ABF3C33EF">
+<createdBy>dannyvarela</createdBy>
+<createdTime>2015-11-20 18:06:16 UTC</createdTime>
+<generatorID>9B5B16A0-238A-0B8C-BE59-DE63921D8D64</generatorID>
+<ownerDesignName>Logical15R</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B81C4ED2-2ABF-BEC4-E396-62D53853669A" referredColumn="DEF1269F-AC1B-53B8-CCA8-D9F74FCC94EB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D1B4635F-BA08-72FB-B149-A87AEB1BA330" name="F15C6_TRR_PK">
+<createdBy>dannyvarela</createdBy>
+<createdTime>2015-11-20 18:06:16 UTC</createdTime>
+<generatorID>65DF4B37-353B-5F87-8EC1-14153046750B</generatorID>
+<ownerDesignName>Logical15R</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37075B3B-E45D-6203-93A8-A652A6A9E09F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A0AFC3B-9EA8-D0DD-9A1A-32F4272EDC7C" name="F15C6_TRR_F15C6_RFE_FK">
+<createdBy>dannyvarela</createdBy>
+<createdTime>2015-11-20 18:06:16 UTC</createdTime>
+<generatorID>B50A8271-48FD-3002-0B80-CB9C5536FE46</generatorID>
+<ownerDesignName>Logical15R</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D5F63BE-82A9-EA41-7D8F-14A2AEA6D461"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A6C117F-9AC8-7F2A-33EE-F85F405BD3C7" name="F15C6_TRR_F15C6_TSK_FK">
+<createdBy>dannyvarela</createdBy>
+<createdTime>2015-11-20 18:06:16 UTC</createdTime>
+<generatorID>74E7D9F2-9D62-9592-4E06-02C84867034A</generatorID>
+<ownerDesignName>Logical15R</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="669F1871-8631-B86C-3EE2-009ABF3C33EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

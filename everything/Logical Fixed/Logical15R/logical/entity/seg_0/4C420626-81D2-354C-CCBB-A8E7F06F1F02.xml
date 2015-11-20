@@ -5,7 +5,7 @@
 <generatorID>82B9E91E-3C12-3FC5-288D-C3835EE64C59</generatorID>
 <ownerDesignName>Logical15R</ownerDesignName>
 <engineerTo>
-<item key="C9A7D76F-CF97-63EB-4901-AA6F016A37CE" value="true"/>
+<item key="1F96EA92-090C-E079-96E7-626C6D258FB2" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -22,23 +22,8 @@
 <generatorID>B795B175-671B-2CEC-3B54-5A17C6156AC2</generatorID>
 <ownerDesignName>Logical15R</ownerDesignName>
 <engineerTo>
-<item key="C9A7D76F-CF97-63EB-4901-AA6F016A37CE" value="true"/>
+<item key="1F96EA92-090C-E079-96E7-626C6D258FB2" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="rfe_id" id="FE51C09C-A9B3-6B2E-8A7B-5ADD9FE72D16">
-<createdBy>maste_000</createdBy>
-<createdTime>2015-11-20 02:00:35 UTC</createdTime>
-<generatorID>8A51FC35-DC01-F9F8-2414-62673B7D13F1</generatorID>
-<ownerDesignName>Logical15R</ownerDesignName>
-<engineerTo>
-<item key="C9A7D76F-CF97-63EB-4901-AA6F016A37CE" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>9C2692BD-EFC2-082C-F274-B3C8BFE2011A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -50,9 +35,24 @@
 <generatorID>8A7E0284-920E-014C-FF39-0996A57649A6</generatorID>
 <ownerDesignName>Logical15R</ownerDesignName>
 <engineerTo>
-<item key="C9A7D76F-CF97-63EB-4901-AA6F016A37CE" value="true"/>
+<item key="1F96EA92-090C-E079-96E7-626C6D258FB2" value="true"/>
 </engineerTo>
 <referedAttribute>ACEC7CCD-AD14-209F-E51C-376DB92DAD21</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rfe_id" id="FE51C09C-A9B3-6B2E-8A7B-5ADD9FE72D16">
+<createdBy>maste_000</createdBy>
+<createdTime>2015-11-20 02:00:35 UTC</createdTime>
+<generatorID>8A51FC35-DC01-F9F8-2414-62673B7D13F1</generatorID>
+<ownerDesignName>Logical15R</ownerDesignName>
+<engineerTo>
+<item key="1F96EA92-090C-E079-96E7-626C6D258FB2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>9C2692BD-EFC2-082C-F274-B3C8BFE2011A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -64,7 +64,7 @@
 <generatorID>9D2E9A15-E4CC-3F59-8989-30F69D138EA5</generatorID>
 <ownerDesignName>Logical15R</ownerDesignName>
 <engineerTo>
-<item key="C9A7D76F-CF97-63EB-4901-AA6F016A37CE" value="true"/>
+<item key="1F96EA92-090C-E079-96E7-626C6D258FB2" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -78,7 +78,7 @@
 <generatorID>1E0CA688-1BAB-CEF3-E4CB-22EB413E13CB</generatorID>
 <ownerDesignName>Logical15R</ownerDesignName>
 <engineerTo>
-<item key="C9A7D76F-CF97-63EB-4901-AA6F016A37CE" value="true"/>
+<item key="1F96EA92-090C-E079-96E7-626C6D258FB2" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -94,9 +94,8 @@
 <createdTime>2015-11-20 02:00:35 UTC</createdTime>
 <generatorID>DE57C245-B2C3-B9EC-2A52-BD6C498AC60F</generatorID>
 <ownerDesignName>Logical15R</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C9A7D76F-CF97-63EB-4901-AA6F016A37CE" value="false"/>
+<item key="1F96EA92-090C-E079-96E7-626C6D258FB2" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
