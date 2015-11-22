@@ -93,14 +93,14 @@ Neo4j on conn "CREATE (:bhouse { HNO : 120, HNAME : 'Westerling', LOC : 'The Cra
 #Lannister Bannermen
 Neo4j on conn "CREATE (:bhouse { HNO : 140, HNAME : 'Banefort', LOC : 'Banefort' })"
 Neo4j on conn "CREATE (:bhouse { HNO : 150, HNAME : 'Brax', LOC : 'Hornvale' })"
-Neo4j on conn "CREATE (:bhouse { HNO : 160, HNAME : 'Clegane', LOC : 'Clegane's Keept })"
+Neo4j on conn "CREATE (:bhouse { HNO : 160, HNAME : 'Clegane', LOC : 'Cleganes Keep' })"
 Neo4j on conn "CREATE (:bhouse { HNO : 170, HNAME : 'Estren', LOC : 'Wyndhall' })"
 Neo4j on conn "CREATE (:bhouse { HNO : 180, HNAME : 'Marbrand', LOC : 'Ashenmark' })"
 Neo4j on conn "CREATE (:bhouse { HNO : 190, HNAME : 'Banefort', LOC : 'Banefort' })"
 #Baratheon Bannermen
 Neo4j on conn "CREATE (:bhouse { HNO : 200, HNAME : 'Buckler', LOC : 'Bronzegate' })"
 Neo4j on conn "CREATE (:bhouse { HNO : 210, HNAME : 'Caron', LOC : 'Nightsong' })"
-Neo4j on conn "CREATE (:bhouse { HNO : 220, HNAME : 'Connington', LOC : 'Griffin's Roost' })"
+Neo4j on conn "CREATE (:bhouse { HNO : 220, HNAME : 'Connington', LOC : 'Griffins Roost' })"
 Neo4j on conn "CREATE (:bhouse { HNO : 230, HNAME : 'Selmy', LOC : 'Harvest HAll' })"
 Neo4j on conn "CREATE (:bhouse { HNO : 240, HNAME : 'Tarth', LOC : 'Evenfall Hall' })"
 Neo4j on conn "CREATE (:bhouse { HNO : 250, HNAME : 'Buckler', LOC : 'Bronzegate' })"
