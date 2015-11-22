@@ -1,0 +1,165 @@
+# Change the followin oracle account id and password to your oracle account id and password. Also, change A0 to your group's number but don't use F15 because it will make some internal names be too long.
+conn = connectTo 'jdbc:oracle:thin:@sayonara.microlab.cs.utexas.edu:1521:orcl' 'C##cs347_mp28654' 'orcl_mp28654' 'rdf_mode' 'C6';
+
+#Characters
+Neo4j on conn "CREATE (:car { CARNO : 1, CNAME : 'Ned', JOB : 'Warden', HNO : 10, dead : 'yes'})"
+Neo4j on conn "CREATE (:car { CARNO : 2, CNAME : 'Rob', JOB : 'Lord', HNO : 10, dead : 'yes'})"
+Neo4j on conn "CREATE (:car { CARNO : 3, CNAME : 'Catelyn', JOB : 'Lady', HNO : 10, dead : 'yes'})"
+Neo4j on conn "CREATE (:car { CARNO : 4, CNAME : 'Sansa', JOB : 'Lady', HNO : 10, dead : 'no'})"
+Neo4j on conn "CREATE (:car { CARNO : 5, CNAME : 'Bran', JOB : 'Lord', HNO : 10, dead : 'no'})"
+Neo4j on conn "CREATE (:car { CARNO : 6, CNAME : 'Arya', JOB : 'Lady', HNO : 10, dead : 'no'})"
+Neo4j on conn "CREATE (:car { CARNO : 7, CNAME : 'Rickon', JOB : 'Lord', HNO : 10, dead : 'no'})"
+Neo4j on conn "CREATE (:car { CARNO : 8, CNAME : 'Jon', JOB : 'Bastard', HNO : 10, dead : 'maybe'})"
+Neo4j on conn "CREATE (:car { CARNO : 9, CNAME : 'Tywin', JOB : 'Warden', HNO : 20, dead : 'yes'})"
+Neo4j on conn "CREATE (:car { CARNO : 10, CNAME : 'Jaime', JOB : 'Kingsguard', HNO : 20, dead : 'no'})"
+Neo4j on conn "CREATE (:car { CARNO : 11, CNAME : 'Cersei ', JOB : 'Lady', HNO : 20, dead : 'no'})"
+Neo4j on conn "CREATE (:car { CARNO : 12, CNAME : 'Tyrion', JOB : 'Lord', HNO : 20, dead : 'no'})"
+Neo4j on conn "CREATE (:car { CARNO : 13, CNAME : 'Robert', JOB : 'King', HNO : 30, dead : 'yes'})"
+Neo4j on conn "CREATE (:car { CARNO : 14, CNAME : 'Joffery', JOB : 'Prince', HNO : 20, dead : 'yes'})"
+Neo4j on conn "CREATE (:car { CARNO : 15, CNAME : 'Myrcella', JOB : 'Princess', HNO : 20, dead : 'yes'})"
+Neo4j on conn "CREATE (:car { CARNO : 16, CNAME : 'Tommen', JOB : 'Prince', HNO : 20, dead : 'no'})"
+Neo4j on conn "CREATE (:car { CARNO : 17, CNAME : 'Renly', JOB : 'Lord', HNO : 30, dead : 'yes'})"
+Neo4j on conn "CREATE (:car { CARNO : 18, CNAME : 'Stannis', JOB : 'Lord', HNO : 30, dead : 'maybe'})"
+Neo4j on conn "CREATE (:car { CARNO : 19, CNAME : 'Shireen', JOB : 'Lady', HNO : 30, dead : 'yes'})"
+Neo4j on conn "CREATE (:car { CARNO : 20, CNAME : 'Roose', JOB : 'Lord', HNO : 40, dead : 'no'})"
+Neo4j on conn "CREATE (:car { CARNO : 21, CNAME : 'Ramsey', JOB : 'Bastard', HNO : 40, dead : 'no'})"
+Neo4j on conn "CREATE (:car { CARNO : 23, CNAME : 'Mace', JOB : 'Warden', HNO : 50, dead : 'no'})"
+Neo4j on conn "CREATE (:car { CARNO : 22, CNAME : 'Loras', JOB : 'Knight', HNO : 50, dead : 'no'})"
+Neo4j on conn "CREATE (:car { CARNO : 23, CNAME : 'Margaery', JOB : 'Lady', HNO : 50, dead : 'no'})"
+
+
+
+#Family Relation
+Neo4j on conn "MATCH (a:car),(b:car) WHERE a.HNO = 10 AND b.HNO = 10 CREATE (a)<-[:family]-(b)"
+Neo4j on conn "MATCH (a:car),(b:car) WHERE a.HNO = 20 AND b.HNO = 20 CREATE (a)<-[:family]-(b)"
+Neo4j on conn "MATCH (a:car),(b:car) WHERE a.HNO = 30 AND b.HNO = 30 CREATE (a)<-[:family]-(b)"
+Neo4j on conn "MATCH (a:car),(b:car) WHERE a.HNO = 40 AND b.HNO = 40 CREATE (a)<-[:family]-(b)"
+Neo4j on conn "MATCH (a:car),(b:car) WHERE a.HNO = 50 AND b.HNO = 50 CREATE (a)<-[:family]-(b)"
+
+
+
+#Houses
+Neo4j on conn "CREATE (:house { HNO : 10, HNAME : 'Stark', LOC : 'Winterfell',  MEN : 45000})"
+Neo4j on conn "CREATE (:house { HNO : 20, HNAME : 'Lannister', LOC : 'Casterly Rock', MEN :  50000})"
+Neo4j on conn "CREATE (:house { HNO : 30, HNAME : 'Baratheon', LOC : 'Kings Landing', MEN : 50400 })"
+Neo4j on conn "CREATE (:house { HNO : 40, HNAME : 'Bolton', LOC : 'Dreadfort', MEN : 20000 })"
+Neo4j on conn "CREATE (:house { HNO : 50, HNAME : 'Tyrell', LOC : 'Highgarden', MEN : 80000 })"
+
+
+#Member Relation
+Neo4j on conn "MATCH (a:car),(b:house) WHERE a.HNO = 10 AND b.HNO = 10 CREATE (a)-[:member]->(b)"
+Neo4j on conn "MATCH (a:car),(b:house) WHERE a.HNO = 20 AND b.HNO = 20 CREATE (a)-[:member]->(b)"
+Neo4j on conn "MATCH (a:car),(b:house) WHERE a.HNO = 30 AND b.HNO = 30 CREATE (a)-[:member]->(b)"
+Neo4j on conn "MATCH (a:car),(b:house) WHERE a.HNO = 40 AND b.HNO = 40 CREATE (a)-[:member]->(b)"
+Neo4j on conn "MATCH (a:car),(b:house) WHERE a.HNO = 50 AND b.HNO = 50 CREATE (a)-[:member]->(b)"
+
+
+
+#Enemy Relation
+Neo4j on conn "MATCH (a:house),(b:house) WHERE a.HNO = 10 AND b.HNO = 20 CREATE (a)<-[:enemy]-(b)"
+Neo4j on conn "MATCH (a:house),(b:house) WHERE a.HNO = 10 AND b.HNO = 40 CREATE (a)<-[:enemy]-(b)"
+Neo4j on conn "MATCH (a:house),(b:house) WHERE a.HNO = 10 AND b.HNO = 50 CREATE (a)<-[:enemy]-(b)"
+Neo4j on conn "MATCH (a:house),(b:house) WHERE a.HNO = 20 AND b.HNO = 10 CREATE (a)<-[:enemy]-(b)"
+Neo4j on conn "MATCH (a:house),(b:house) WHERE a.HNO = 20 AND b.HNO = 30 CREATE (a)<-[:enemy]-(b)"
+Neo4j on conn "MATCH (a:house),(b:house) WHERE a.HNO = 30 AND b.HNO = 20 CREATE (a)<-[:enemy]-(b)"
+Neo4j on conn "MATCH (a:house),(b:house) WHERE a.HNO = 30 AND b.HNO = 40 CREATE (a)<-[:enemy]-(b)"
+Neo4j on conn "MATCH (a:house),(b:house) WHERE a.HNO = 30 AND b.HNO = 50 CREATE (a)<-[:enemy]-(b)"
+Neo4j on conn "MATCH (a:house),(b:house) WHERE a.HNO = 40 AND b.HNO = 10 CREATE (a)<-[:enemy]-(b)"
+Neo4j on conn "MATCH (a:house),(b:house) WHERE a.HNO = 40 AND b.HNO = 30 CREATE (a)<-[:enemy]-(b)"
+Neo4j on conn "MATCH (a:house),(b:house) WHERE a.HNO = 50 AND b.HNO = 10 CREATE (a)<-[:enemy]-(b)"
+Neo4j on conn "MATCH (a:house),(b:house) WHERE a.HNO = 50 AND b.HNO = 30 CREATE (a)<-[:enemy]-(b)"
+
+#AllyRelation
+Neo4j on conn "MATCH (a:house),(b:house) WHERE a.HNO = 10 AND b.HNO = 30 CREATE (a)<-[:ally]-(b)"
+Neo4j on conn "MATCH (a:house),(b:house) WHERE a.HNO = 20 AND b.HNO = 40 CREATE (a)<-[:ally]-(b)"
+Neo4j on conn "MATCH (a:house),(b:house) WHERE a.HNO = 20 AND b.HNO = 50 CREATE (a)<-[:ally]-(b)"
+Neo4j on conn "MATCH (a:house),(b:house) WHERE a.HNO = 30 AND b.HNO = 10 CREATE (a)<-[:ally]-(b)"
+Neo4j on conn "MATCH (a:house),(b:house) WHERE a.HNO = 40 AND b.HNO = 20 CREATE (a)<-[:ally]-(b)"
+Neo4j on conn "MATCH (a:house),(b:house) WHERE a.HNO = 40 AND b.HNO = 30 CREATE (a)<-[:ally]-(b)"
+Neo4j on conn "MATCH (a:house),(b:house) WHERE a.HNO = 50 AND b.HNO = 20 CREATE (a)<-[:ally]-(b)"
+Neo4j on conn "MATCH (a:house),(b:house) WHERE a.HNO = 50 AND b.HNO = 40 CREATE (a)<-[:ally]-(b)"
+
+
+
+
+#Stark Bannermen
+Neo4j on conn "CREATE (:bhouse { HNO : 60, HNAME : 'Reed', LOC : 'Greywater Watch' })"
+Neo4j on conn "CREATE (:house { HNO : 70, HNAME : 'Glover', LOC : 'Deepwood Motte' })"
+Neo4j on conn "CREATE (:bhouse { HNO : 80, HNAME : 'Mormont', LOC : 'Bear Island' })"
+Neo4j on conn "CREATE (:bhouse { HNO : 90, HNAME : 'Umber', LOC : 'Last Heath' })"
+Neo4j on conn "CREATE (:bhouse { HNO : 100, HNAME : 'Manderly', LOC : 'White Harbor' })"
+Neo4j on conn "CREATE (:bhouse { HNO : 110, HNAME : 'Tully', LOC : 'Riverrun' })"
+Neo4j on conn "CREATE (:bhouse { HNO : 120, HNAME : 'Westerling', LOC : 'The Crag' })"
+#Lannister Bannermen
+Neo4j on conn "CREATE (:bhouse { HNO : 140, HNAME : 'Banefort', LOC : 'Banefort' })"
+Neo4j on conn "CREATE (:bhouse { HNO : 150, HNAME : 'Brax', LOC : 'Hornvale' })"
+Neo4j on conn "CREATE (:bhouse { HNO : 160, HNAME : 'Clegane', LOC : 'Clegane's Keept })"
+Neo4j on conn "CREATE (:bhouse { HNO : 170, HNAME : 'Estren', LOC : 'Wyndhall' })"
+Neo4j on conn "CREATE (:bhouse { HNO : 180, HNAME : 'Marbrand', LOC : 'Ashenmark' })"
+Neo4j on conn "CREATE (:bhouse { HNO : 190, HNAME : 'Banefort', LOC : 'Banefort' })"
+#Baratheon Bannermen
+Neo4j on conn "CREATE (:bhouse { HNO : 200, HNAME : 'Buckler', LOC : 'Bronzegate' })"
+Neo4j on conn "CREATE (:bhouse { HNO : 210, HNAME : 'Caron', LOC : 'Nightsong' })"
+Neo4j on conn "CREATE (:bhouse { HNO : 220, HNAME : 'Connington', LOC : 'Griffin's Roost' })"
+Neo4j on conn "CREATE (:bhouse { HNO : 230, HNAME : 'Selmy', LOC : 'Harvest HAll' })"
+Neo4j on conn "CREATE (:bhouse { HNO : 240, HNAME : 'Tarth', LOC : 'Evenfall Hall' })"
+Neo4j on conn "CREATE (:bhouse { HNO : 250, HNAME : 'Buckler', LOC : 'Bronzegate' })"
+#Bolton Bannermen
+Neo4j on conn "CREATE (:bhouse { HNO : 260, HNAME : 'Dustin', LOC : 'Barrowton' })"
+Neo4j on conn "CREATE (:bhouse { HNO : 270, HNAME : 'Hornwood', LOC : 'Hornwood' })"
+Neo4j on conn "CREATE (:bhouse { HNO : 280, HNAME : 'Karstark', LOC : 'Karhold' })"
+Neo4j on conn "CREATE (:bhouse { HNO : 290, HNAME : 'Locke', LOC : 'Oldcastle' })"
+Neo4j on conn "CREATE (:bhouse { HNO : 300, HNAME : 'Stout', LOC : 'Goldgrass' })"
+#Tyrell Bannermen
+Neo4j on conn "CREATE (:bhouse { HNO : 310, HNAME : 'Footly', LOC : 'Tumbleton' })"
+Neo4j on conn "CREATE (:bhouse { HNO : 320, HNAME : 'Hewett', LOC : 'Hewett Castle' })"
+Neo4j on conn "CREATE (:bhouse { HNO : 330, HNAME : 'Hightower', LOC : 'Hightower' })"
+Neo4j on conn "CREATE (:bhouse { HNO : 340, HNAME : 'Kindwell', LOC : 'Ivy Hall' })"
+Neo4j on conn "CREATE (:bhouse { HNO : 350, HNAME : 'Redywyne', LOC : 'Arbor' })"
+
+
+
+
+#Ally Bannermen for Stark
+Neo4j on conn "MATCH (a:house),(b:bhouse) WHERE a.HNO = 10 AND b.HNO = 60 CREATE (a)<-[:bannermen]-(b)"
+Neo4j on conn "MATCH (a:house),(b:bhouse) WHERE a.HNO = 10 AND b.HNO = 70 CREATE (a)<-[:bannermen]-(b)"
+Neo4j on conn "MATCH (a:house),(b:bhouse) WHERE a.HNO = 10 AND b.HNO = 80 CREATE (a)<-[:bannermen]-(b)"
+Neo4j on conn "MATCH (a:house),(b:bhouse) WHERE a.HNO = 10 AND b.HNO = 90 CREATE (a)<-[:bannermen]-(b)"
+Neo4j on conn "MATCH (a:house),(b:bhouse) WHERE a.HNO = 10 AND b.HNO = 100 CREATE (a)<-[:bannermen]-(b)"
+Neo4j on conn "MATCH (a:house),(b:bhouse) WHERE a.HNO = 10 AND b.HNO = 110 CREATE (a)<-[:bannermen]-(b)"
+Neo4j on conn "MATCH (a:house),(b:bhouse) WHERE a.HNO = 10 AND b.HNO = 120 CREATE (a)<-[:banenrmen]-(b)"
+
+#Ally Bannermen for Lannister
+Neo4j on conn "MATCH (a:house),(b:bhouse) WHERE a.HNO = 20 AND b.HNO = 140 CREATE (a)<-[:bannermen]-(b)"
+Neo4j on conn "MATCH (a:house),(b:bhouse) WHERE a.HNO = 20 AND b.HNO = 150 CREATE (a)<-[:bannermen]-(b)"
+Neo4j on conn "MATCH (a:house),(b:bhouse) WHERE a.HNO = 20 AND b.HNO = 160 CREATE (a)<-[:bannermen]-(b)"
+Neo4j on conn "MATCH (a:house),(b:bhouse) WHERE a.HNO = 20 AND b.HNO = 170 CREATE (a)<-[:bannermen]-(b)"
+Neo4j on conn "MATCH (a:house),(b:bhouse) WHERE a.HNO = 20 AND b.HNO = 180 CREATE (a)<-[:bannermen]-(b)"
+Neo4j on conn "MATCH (a:house),(b:bhouse) WHERE a.HNO = 20 AND b.HNO = 190 CREATE (a)<-[:bannermen]-(b)"
+
+#Ally Bannermen for Baratheon
+Neo4j on conn "MATCH (a:house),(b:bhouse) WHERE a.HNO = 30 AND b.HNO = 200 CREATE (a)<-[:bannermen]-(b)"
+Neo4j on conn "MATCH (a:house),(b:bhouse) WHERE a.HNO = 30 AND b.HNO = 210 CREATE (a)<-[:bannermen]-(b)"
+Neo4j on conn "MATCH (a:house),(b:bhouse) WHERE a.HNO = 30 AND b.HNO = 220 CREATE (a)<-[:bannermen]-(b)"
+Neo4j on conn "MATCH (a:house),(b:bhouse) WHERE a.HNO = 30 AND b.HNO = 230 CREATE (a)<-[:bannermen]-(b)"
+Neo4j on conn "MATCH (a:house),(b:bhouse) WHERE a.HNO = 30 AND b.HNO = 240 CREATE (a)<-[:bannermen]-(b)"
+Neo4j on conn "MATCH (a:house),(b:bhouse) WHERE a.HNO = 30 AND b.HNO = 250 CREATE (a)<-[:bannermen]-(b)"
+
+
+#Ally Bannermen for Bolton
+Neo4j on conn "MATCH (a:house),(b:bhouse) WHERE a.HNO = 40 AND b.HNO = 260 CREATE (a)<-[:bannermen]-(b)"
+Neo4j on conn "MATCH (a:house),(b:bhouse) WHERE a.HNO = 40 AND b.HNO = 270 CREATE (a)<-[:bannermen]-(b)"
+Neo4j on conn "MATCH (a:house),(b:bhouse) WHERE a.HNO = 40 AND b.HNO = 280 CREATE (a)<-[:bannermen]-(b)"
+Neo4j on conn "MATCH (a:house),(b:bhouse) WHERE a.HNO = 40 AND b.HNO = 290 CREATE (a)<-[:bannermen]-(b)"
+Neo4j on conn "MATCH (a:house),(b:bhouse) WHERE a.HNO = 40 AND b.HNO = 300 CREATE (a)<-[:bannermen]-(b)"
+
+#Ally Bannermen for Tyrell
+Neo4j on conn "MATCH (a:house),(b:bhouse) WHERE a.HNO = 50 AND b.HNO = 310 CREATE (a)<-[:bannermen]-(b)"
+Neo4j on conn "MATCH (a:house),(b:bhouse) WHERE a.HNO = 50 AND b.HNO = 320 CREATE (a)<-[:bannermen]-(b)"
+Neo4j on conn "MATCH (a:house),(b:bhouse) WHERE a.HNO = 50 AND b.HNO = 330 CREATE (a)<-[:bannermen]-(b)"
+Neo4j on conn "MATCH (a:house),(b:bhouse) WHERE a.HNO = 50 AND b.HNO = 340 CREATE (a)<-[:bannermen]-(b)"
+Neo4j on conn "MATCH (a:house),(b:bhouse) WHERE a.HNO = 50 AND b.HNO = 350 CREATE (a)<-[:bannermen]-(b)"
+
+
+
+
