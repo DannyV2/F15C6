@@ -4,9 +4,6 @@
 <createdTime>2015-11-20 02:00:35 UTC</createdTime>
 <generatorID>43D9E82E-5323-A837-2980-E1E28B324CA2</generatorID>
 <ownerDesignName>Logical15R</ownerDesignName>
-<engineerTo>
-<item key="652D46CB-727B-ABA6-C1A0-DB85E83DB70D" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -20,9 +17,6 @@
 <createdBy>maste_000</createdBy>
 <createdTime>2015-11-20 02:08:38 UTC</createdTime>
 <ownerDesignName>Logical15R</ownerDesignName>
-<engineerTo>
-<item key="652D46CB-727B-ABA6-C1A0-DB85E83DB70D" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -33,9 +27,7 @@
 <createdTime>2015-11-20 02:00:35 UTC</createdTime>
 <generatorID>B50A8271-48FD-3002-0B80-CB9C5536FE46</generatorID>
 <ownerDesignName>Logical15R</ownerDesignName>
-<engineerTo>
-<item key="652D46CB-727B-ABA6-C1A0-DB85E83DB70D" value="true"/>
-</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <referedAttribute>9C2692BD-EFC2-082C-F274-B3C8BFE2011A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -47,9 +39,7 @@
 <createdTime>2015-11-20 02:00:35 UTC</createdTime>
 <generatorID>74E7D9F2-9D62-9592-4E06-02C84867034A</generatorID>
 <ownerDesignName>Logical15R</ownerDesignName>
-<engineerTo>
-<item key="652D46CB-727B-ABA6-C1A0-DB85E83DB70D" value="true"/>
-</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <referedAttribute>9C9A0506-D6E7-918B-C209-C074608082B0</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -63,9 +53,6 @@
 <createdTime>2015-11-20 02:00:35 UTC</createdTime>
 <generatorID>71A7047E-D966-A524-E60E-3BFEA29D114C</generatorID>
 <ownerDesignName>Logical15R</ownerDesignName>
-<engineerTo>
-<item key="652D46CB-727B-ABA6-C1A0-DB85E83DB70D" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>36C73997-690E-8967-BEB0-BB5E6DD43A8F</attributeRef>

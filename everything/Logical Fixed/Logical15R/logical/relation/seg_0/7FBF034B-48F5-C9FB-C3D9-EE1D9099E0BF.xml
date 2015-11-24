@@ -3,13 +3,10 @@
 <createdBy>maste_000</createdBy>
 <createdTime>2015-11-20 03:01:42 UTC</createdTime>
 <ownerDesignName>Logical15R</ownerDesignName>
-<engineerTo>
-<item key="C9A7D76F-CF97-63EB-4901-AA6F016A37CE" value="true"/>
-</engineerTo>
 <sourcePk>A7BD3269-03C0-8CAF-AE22-E07CFE1539C4</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
-<optionalTarget>false</optionalTarget>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>E830F0AA-9075-430D-A48E-8CB5E431EE60</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>

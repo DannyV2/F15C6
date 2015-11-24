@@ -4,13 +4,10 @@
 <createdTime>2015-11-20 02:00:35 UTC</createdTime>
 <generatorID>26D5CF1A-A4CA-7E5F-B2CB-0D7E266313BD</generatorID>
 <ownerDesignName>Logical15R</ownerDesignName>
-<engineerTo>
-<item key="C9A7D76F-CF97-63EB-4901-AA6F016A37CE" value="true"/>
-</engineerTo>
 <sourcePk>87524FA2-9EFB-5D5F-E252-F79884BE3185</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
-<optionalTarget>false</optionalTarget>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>20472B65-13B5-C07E-8776-444A6966E62C</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>

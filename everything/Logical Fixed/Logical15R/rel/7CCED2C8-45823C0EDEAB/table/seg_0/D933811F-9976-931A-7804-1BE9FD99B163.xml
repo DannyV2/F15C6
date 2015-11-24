@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D933811F-9976-931A-7804-1BE9FD99B163" name="F15C6_TRR">
+<createdBy>dannyvarela</createdBy>
+<createdTime>2015-11-23 19:14:32 UTC</createdTime>
+<generatorID>F460A573-133B-FC22-009C-B6CA82AB04B4</generatorID>
+<ownerDesignName>Logical15R</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rt_id" id="D312928E-2B93-E998-DF16-2223FDE49CA7">
+<createdBy>dannyvarela</createdBy>
+<createdTime>2015-11-23 19:14:32 UTC</createdTime>
+<generatorID>36C73997-690E-8967-BEB0-BB5E6DD43A8F</generatorID>
+<ownerDesignName>Logical15R</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rfe_id" id="C2B389BF-0D0B-3922-149B-97DE5619B12A">
+<createdBy>dannyvarela</createdBy>
+<createdTime>2015-11-23 19:14:32 UTC</createdTime>
+<generatorID>9565A2F5-456C-DE72-71EA-12039685DDDF</generatorID>
+<ownerDesignName>Logical15R</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8A290AD-26CD-C09F-3E26-425825DC193F" referredColumn="9F47DE59-5006-C493-96A1-EBB8010A8D66"/>
+</associations>
+</Column>
+<Column name="task_id" id="BF23A0BA-9201-D35F-035E-7883D89CC5F8">
+<createdBy>dannyvarela</createdBy>
+<createdTime>2015-11-23 19:14:32 UTC</createdTime>
+<generatorID>9B5B16A0-238A-0B8C-BE59-DE63921D8D64</generatorID>
+<ownerDesignName>Logical15R</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E34B7A24-FF8B-25B0-0E13-14F54AF57889" referredColumn="3073A9AC-930A-0C49-8C78-75BB00657819"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CB0A36FE-389A-00D5-FEA1-C0C147FEB72A" name="F15C6_TRR_PK">
+<createdBy>dannyvarela</createdBy>
+<createdTime>2015-11-23 19:14:32 UTC</createdTime>
+<generatorID>65DF4B37-353B-5F87-8EC1-14153046750B</generatorID>
+<ownerDesignName>Logical15R</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D312928E-2B93-E998-DF16-2223FDE49CA7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04D87861-A6D6-1F71-1A83-87363C370553" name="F15C6_TRR_F15C6_RFE_FK">
+<createdBy>dannyvarela</createdBy>
+<createdTime>2015-11-23 19:14:32 UTC</createdTime>
+<generatorID>B50A8271-48FD-3002-0B80-CB9C5536FE46</generatorID>
+<ownerDesignName>Logical15R</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2B389BF-0D0B-3922-149B-97DE5619B12A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15093660-CB69-D308-D183-EC496BC05C5B" name="F15C6_TRR_F15C6_TSK_FK">
+<createdBy>dannyvarela</createdBy>
+<createdTime>2015-11-23 19:14:32 UTC</createdTime>
+<generatorID>74E7D9F2-9D62-9592-4E06-02C84867034A</generatorID>
+<ownerDesignName>Logical15R</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF23A0BA-9201-D35F-035E-7883D89CC5F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

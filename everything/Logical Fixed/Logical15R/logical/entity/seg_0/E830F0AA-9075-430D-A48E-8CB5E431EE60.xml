@@ -3,9 +3,6 @@
 <createdBy>maste_000</createdBy>
 <createdTime>2015-11-20 02:52:24 UTC</createdTime>
 <ownerDesignName>Logical15R</ownerDesignName>
-<engineerTo>
-<item key="652D46CB-727B-ABA6-C1A0-DB85E83DB70D" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -19,9 +16,6 @@
 <createdBy>maste_000</createdBy>
 <createdTime>2015-11-20 02:53:04 UTC</createdTime>
 <ownerDesignName>Logical15R</ownerDesignName>
-<engineerTo>
-<item key="652D46CB-727B-ABA6-C1A0-DB85E83DB70D" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -31,9 +25,6 @@
 <createdBy>maste_000</createdBy>
 <createdTime>2015-11-20 02:52:58 UTC</createdTime>
 <ownerDesignName>Logical15R</ownerDesignName>
-<engineerTo>
-<item key="652D46CB-727B-ABA6-C1A0-DB85E83DB70D" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -44,9 +35,6 @@
 <createdBy>maste_000</createdBy>
 <createdTime>2015-11-20 02:54:42 UTC</createdTime>
 <ownerDesignName>Logical15R</ownerDesignName>
-<engineerTo>
-<item key="652D46CB-727B-ABA6-C1A0-DB85E83DB70D" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -59,9 +47,6 @@
 <createdBy>maste_000</createdBy>
 <createdTime>2015-11-20 02:54:06 UTC</createdTime>
 <ownerDesignName>Logical15R</ownerDesignName>
-<engineerTo>
-<item key="652D46CB-727B-ABA6-C1A0-DB85E83DB70D" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>4C2A4D7C-0A6A-E463-B1DE-0A01D2AF0F00</attributeRef>
