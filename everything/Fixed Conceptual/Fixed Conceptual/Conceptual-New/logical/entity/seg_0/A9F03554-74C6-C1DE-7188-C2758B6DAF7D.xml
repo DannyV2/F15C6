@@ -27,21 +27,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="emp_id" id="64134842-8DD4-E267-4764-1EEEC9F76648">
-<createdBy>dannyvarela</createdBy>
-<createdTime>2015-11-02 22:24:08 UTC</createdTime>
-<generatorID>56CE83CB-DB74-4B52-C562-7EE9EF8864B9</generatorID>
-<ownerDesignName>Conceptual-New</ownerDesignName>
-<engineerTo>
-<item key="C9A7D76F-CF97-63EB-4901-AA6F016A37CE" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>3EB22265-2BFA-DE10-AFEC-B0BDEC551BC4</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="status_id" id="3CA81DCC-D08E-5AE4-685E-78A97601B47D">
 <createdBy>dannyvarela</createdBy>
 <createdTime>2015-11-02 22:30:05 UTC</createdTime>
@@ -96,6 +81,21 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="task_id" id="9BD1DF63-A656-3228-179E-D9667A71439E">
+<createdBy>dannyvarela</createdBy>
+<createdTime>2015-11-24 16:47:11 UTC</createdTime>
+<generatorID>E20EABBC-3466-53E0-F83A-5F3D44CA2F97</generatorID>
+<ownerDesignName>Conceptual-New</ownerDesignName>
+<engineerTo>
+<item key="C9A7D76F-CF97-63EB-4901-AA6F016A37CE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>61787CB6-5882-8ED9-810D-FBE50D5C34D6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
