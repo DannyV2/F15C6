@@ -4,9 +4,6 @@
 <createdTime>2015-11-20 02:00:35 UTC</createdTime>
 <generatorID>B2BED0C9-68AB-A0FD-A3C3-A58DDACC3AFA</generatorID>
 <ownerDesignName>Logical15R</ownerDesignName>
-<engineerTo>
-<item key="C9A7D76F-CF97-63EB-4901-AA6F016A37CE" value="true"/>
-</engineerTo>
 <sourcePk>D191B237-B40F-A26E-A2DF-FE7E6489CA37</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>

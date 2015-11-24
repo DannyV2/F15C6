@@ -5,7 +5,7 @@
 <generatorID>B0C92448-6180-76A8-D412-536614C70567</generatorID>
 <ownerDesignName>Logical15R</ownerDesignName>
 <engineerTo>
-<item key="652D46CB-727B-ABA6-C1A0-DB85E83DB70D" value="true"/>
+<item key="7CCED2C8-42DA-C787-8683-45823C0EDEAB" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -22,7 +22,7 @@
 <generatorID>5FA9F682-8D57-ABE5-B380-58E62BDE9934</generatorID>
 <ownerDesignName>Logical15R</ownerDesignName>
 <engineerTo>
-<item key="652D46CB-727B-ABA6-C1A0-DB85E83DB70D" value="true"/>
+<item key="7CCED2C8-42DA-C787-8683-45823C0EDEAB" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -35,7 +35,7 @@
 <generatorID>7A9FB9A1-8040-7200-1E55-450DF447B617</generatorID>
 <ownerDesignName>Logical15R</ownerDesignName>
 <engineerTo>
-<item key="652D46CB-727B-ABA6-C1A0-DB85E83DB70D" value="true"/>
+<item key="7CCED2C8-42DA-C787-8683-45823C0EDEAB" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>293999B7-6A49-1DD7-3FC6-28308D92DEC3</referedAttribute>
@@ -50,7 +50,7 @@
 <generatorID>B42F5D11-0D92-78BE-5600-52E05361CD17</generatorID>
 <ownerDesignName>Logical15R</ownerDesignName>
 <engineerTo>
-<item key="652D46CB-727B-ABA6-C1A0-DB85E83DB70D" value="true"/>
+<item key="7CCED2C8-42DA-C787-8683-45823C0EDEAB" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -64,7 +64,7 @@
 <generatorID>1001BDCE-542F-1E53-0A2A-F91EB0B430BC</generatorID>
 <ownerDesignName>Logical15R</ownerDesignName>
 <engineerTo>
-<item key="652D46CB-727B-ABA6-C1A0-DB85E83DB70D" value="true"/>
+<item key="7CCED2C8-42DA-C787-8683-45823C0EDEAB" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -73,13 +73,13 @@
 <dataTypeSize>4000</dataTypeSize>
 <ownDataTypeParameters>4000,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="protection" id="50635BEC-0BBA-F859-3C2C-6B948B5A4224">
+<Attribute name="prot" id="50635BEC-0BBA-F859-3C2C-6B948B5A4224">
 <createdBy>maste_000</createdBy>
 <createdTime>2015-11-20 02:00:35 UTC</createdTime>
 <generatorID>88BB290B-D12C-8EE0-3753-98A0FB219C17</generatorID>
 <ownerDesignName>Logical15R</ownerDesignName>
 <engineerTo>
-<item key="652D46CB-727B-ABA6-C1A0-DB85E83DB70D" value="true"/>
+<item key="7CCED2C8-42DA-C787-8683-45823C0EDEAB" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -96,7 +96,7 @@
 <generatorID>F429810E-F9BA-9E4D-5E88-AC4ACA690EBB</generatorID>
 <ownerDesignName>Logical15R</ownerDesignName>
 <engineerTo>
-<item key="652D46CB-727B-ABA6-C1A0-DB85E83DB70D" value="true"/>
+<item key="7CCED2C8-42DA-C787-8683-45823C0EDEAB" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
