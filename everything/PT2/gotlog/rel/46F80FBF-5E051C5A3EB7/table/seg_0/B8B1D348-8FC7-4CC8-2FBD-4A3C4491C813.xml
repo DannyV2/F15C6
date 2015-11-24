@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B8B1D348-8FC7-4CC8-2FBD-4A3C4491C813" name="F15C6_HOUSE">
+<createdBy>maste_000</createdBy>
+<createdTime>2015-11-24 16:45:52 UTC</createdTime>
+<generatorID>13A8499A-1AB4-4B84-EAD4-CC8E761EF6A8</generatorID>
+<ownerDesignName>gotlog</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="HNO" id="A7FA10E5-980C-12D2-2578-27D3A3104D46">
+<createdBy>maste_000</createdBy>
+<createdTime>2015-11-24 16:45:52 UTC</createdTime>
+<generatorID>D303B324-4A93-DADF-FCA7-951CBF6D09BD</generatorID>
+<ownerDesignName>gotlog</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HNAME" id="201E29D9-D700-6AD3-D050-E772F3D8D87D">
+<createdBy>maste_000</createdBy>
+<createdTime>2015-11-24 16:45:52 UTC</createdTime>
+<generatorID>470D426E-2C2D-8606-5A12-7EFF0163B400</generatorID>
+<ownerDesignName>gotlog</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOC" id="286319C6-F59C-A2DD-2C81-F1A15ECDE58C">
+<createdBy>maste_000</createdBy>
+<createdTime>2015-11-24 16:45:52 UTC</createdTime>
+<generatorID>15BA2DEA-C137-CDED-209C-5FCBFFB2F4B0</generatorID>
+<ownerDesignName>gotlog</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEN" id="51DBC89A-A011-988C-6736-5E31163BAF37">
+<createdBy>maste_000</createdBy>
+<createdTime>2015-11-24 16:45:52 UTC</createdTime>
+<generatorID>3129DCDD-3D79-F7B8-1F4D-A9C584BB38FB</generatorID>
+<ownerDesignName>gotlog</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PIC" id="CA9099C6-6404-6E52-70B4-6C4BB88CE298">
+<createdBy>maste_000</createdBy>
+<createdTime>2015-11-24 16:45:52 UTC</createdTime>
+<generatorID>1D03BBF2-1D1C-AF7E-C813-7B2494C4E1A1</generatorID>
+<ownerDesignName>gotlog</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5000</dataTypeSize>
+<ownDataTypeParameters>5000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STORY" id="2EEADD31-6620-801C-9AFE-CC1B241AECA3">
+<createdBy>maste_000</createdBy>
+<createdTime>2015-11-24 16:45:52 UTC</createdTime>
+<generatorID>2B379E00-1F5D-840D-1802-30077EBC3514</generatorID>
+<ownerDesignName>gotlog</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10000</dataTypeSize>
+<ownDataTypeParameters>10000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5DD9E32B-E1E4-6FEE-5CBB-C69DD86EA901" name="F15C6_HOUSE_PK">
+<createdBy>maste_000</createdBy>
+<createdTime>2015-11-24 16:45:52 UTC</createdTime>
+<generatorID>BBEE8A4D-33A3-D2E8-B3DB-E70AF39B9C99</generatorID>
+<ownerDesignName>gotlog</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7FA10E5-980C-12D2-2578-27D3A3104D46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

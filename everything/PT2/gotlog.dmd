@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="gotlog" id="AF2DCB61-D8C0-6F7C-A128-8584856812FE" version="3.5">
+<createdBy>maste_000</createdBy>
+<createdTime>2015-11-24 11:19:50 UTC</createdTime>
+<ownerDesignName>gotlog</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>AF2DCB61-D8C0-6F7C-A128-8584856812FE</designId>
+</OSDM_Design>
